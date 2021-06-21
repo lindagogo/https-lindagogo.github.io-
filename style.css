@@ -228,6 +228,22 @@ border-color: #6B007C;
 	padding-bottom: 50px;
 	
 }
+.survey-prop{
+	text-align: left;
+	margin: 0 9%;
+	padding-bottom: 50px;
+}
+
+.survey-title{
+	text-align: left;
+	padding-top: 50px;
+	margin: 0 9%;
+}
+.survey-image{
+	display: flex;
+	flex-direction: column;
+	padding: 0 200px 0;
+}
 .ph2{
 	display: flex;
 	max-height: 80%;
