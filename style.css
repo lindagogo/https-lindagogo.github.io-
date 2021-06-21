@@ -8,7 +8,7 @@
     font-style: normal;
     font-weight: normal;
     src: local('Bariol Bold'), url('Bariol_Bold.woff') format('woff');
-    }
+   }
 h2{ 
 	 /* i need to add the bariol font here*/
 	font-family:'Bariol Bold';
@@ -78,7 +78,6 @@ p{
 	padding-bottom: 10px;
 
 	 /* i need to add the bariol font here*/
-
 	
 }
 .title-val-prop{
@@ -132,6 +131,7 @@ p{
 	justify-content: left;
 
 }
+
 .val-prop-link{
 	color: #6B007C;
 	padding-bottom: 15px;
@@ -139,7 +139,11 @@ p{
 	display: flex;
 	justify-content: center;
 
-
+}
+.matches{
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 .val-prop-words{
 	margin: auto;
@@ -150,8 +154,7 @@ p{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
-.form-check-input
-{
+.form-check-input{
 	color:#6B007C ;
 	height: 20px;
 	width: 20px;
@@ -170,8 +173,8 @@ input[type="checkbox"]{
 .btn {
 	border-radius: 50px;
 }
-.btn-check
-{
+
+.btn-check{
 	display: inline-block;
 	display: grid;
 }
@@ -179,8 +182,7 @@ input[type="checkbox"]{
 	padding-bottom: 50px;
 
 }
-hr  
-{  
+hr {  
 width: 90%;  
 height: 2px;  
 background-color: #6B007C;  
@@ -284,8 +286,7 @@ border-color: #6B007C;
   line-height:1.6;
   margin-bottom:0;
 }
-.cb-label-text
-{
+.cb-label-text{
 	padding-top: 10px;
 }
 
