@@ -186,13 +186,16 @@ input[type="checkbox"]{
 
 }
 
-.btn {
-	border-radius: 50px;
+.btn{
+	padding: 50px;
+	back-color: 6B007C;
+	
 }
 
-.btn-check{
-	display: inline-block;
-	display: grid;
+.button-s{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
 }
 .question {
 
