@@ -9,6 +9,8 @@
     font-weight: normal;
     src: local('Bariol Bold'), url('Bariol_Bold.woff') format('woff');
    }
+
+   
 h2{ 
 	 /* i need to add the bariol font here*/
 	font-family:'Bariol Bold';
@@ -69,6 +71,7 @@ p{
 	color:#6B007C; 
 	text-align: left;
 	padding-top: 50px;
+
 }
 
 .kismet-title1{
@@ -76,7 +79,8 @@ p{
 	color:#6B007C; 
 	padding-top: 50px;
 	padding-bottom: 10px;
-
+	font-family:'Bariol Bold';
+	font-size: 65px;
 	 /* i need to add the bariol font here*/
 	
 }
@@ -85,12 +89,17 @@ p{
 	margin: 0 5%;
 	padding-bottom: 50px;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
 }
+
 .why-kismet-title{
 	text-align: center;
 	color: #fff;
 	padding-bottom: 10px;
 	padding-top: 50px;
+	font-family:'Bariol Bold';
+	font-size: 65px;
 }
 
 
@@ -113,6 +122,7 @@ p{
 	padding-bottom: 50px;
 	margin: 0 15%;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
 }
 .why-title{
 	display: inline-block;
@@ -129,6 +139,8 @@ p{
 	padding-top:50px;
 	display: flex;
 	justify-content: left;
+	font-family:'Bariol Bold';
+	font-size: 65px;
 
 }
 
@@ -138,10 +150,13 @@ p{
 	padding-top:50px;
 	display: flex;
 	justify-content: center;
+	font-family:'Bariol Bold';
+	font-size: 65px;
 
 }
 .matches{
-	display: flex;
+	display: grid;
+	flex-direction: row;
 	justify-content: center;
 	width: 100%;
 }
@@ -179,9 +194,14 @@ input[type="checkbox"]{
 	display: grid;
 }
 .question {
+
 	padding-bottom: 50px;
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 
 }
+
 hr {  
 width: 90%;  
 height: 2px;  
@@ -234,6 +254,7 @@ border-color: #6B007C;
 	text-align: left;
 	margin: 0 9%;
 	padding-bottom: 50px;
+	font-size: 30px;
 }
 
 .survey-title{
