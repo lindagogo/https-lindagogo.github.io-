@@ -188,8 +188,15 @@ input[type="checkbox"]{
 
 .btn{
 	padding: 50px;
-	background-color: 6B007C;
+	background-color: #6B007C;
 	
+}
+#btn2{
+	background-color: #6B007C;
+	color:  white !important;
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 }
 
 .button-s{
