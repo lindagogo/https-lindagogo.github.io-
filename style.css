@@ -290,7 +290,7 @@ border-color: #6B007C;
 }
 .ph2{
 	display: flex;
-	max-height: 80%;
+	
 	align-content:center;
 	justify-content:center;
 }
