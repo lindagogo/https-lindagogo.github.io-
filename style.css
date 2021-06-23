@@ -259,13 +259,13 @@ border-color: #6B007C;
 
 }
 .ladder1 {
-	display: flex;
+	display: inline-flex;
 	justify-content: center;
 	padding-top: 50px;
 
 }
 .ladder12{
-	display: flex;
+	display: inline-flex;
 	justify-content: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
