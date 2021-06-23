@@ -255,7 +255,7 @@ border-color: #6B007C;
 }
 .ph {
 	display: flex;
-	max-height: 50%;
+	max-height: 100%;
 
 }
 .ladder1 {
@@ -265,7 +265,7 @@ border-color: #6B007C;
 
 }
 .ladder12{
-	display: inline-flex;
+	display: flex;
 	justify-content: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
