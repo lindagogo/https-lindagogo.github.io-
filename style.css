@@ -431,6 +431,7 @@ border-color: #6B007C;
 	}
 	.val-prop-words {
 		grid-row: 2;
+		padding-bottom: 30px;
 	}
 }
 
