@@ -64,6 +64,10 @@ p{
 .header-title{
 	display: inline-block;
 }
+.hero-img{
+	display: inline-flex;
+	align-items: center;
+}
 .container-header-content {
 	text-align:  center;
 }
@@ -154,6 +158,7 @@ p{
 	justify-content: center;
 	font-family:'Bariol Bold';
 	font-size: 65px;
+	text-align: center;
 
 }
 .matches{
@@ -255,7 +260,7 @@ border-color: #6B007C;
 }
 .ph {
 	display: flex;
-	max-height: 100%;
+
 
 }
 .ladder1 {
@@ -409,6 +414,23 @@ border-color: #6B007C;
 	}
 	.title-val-prop{
 		margin: 0 0;
+	}
+	.val-prop1, .val-prop2 {
+		grid-template-columns:  1fr;
+		justify-content: center;
+	}
+	.ladder1{
+		grid-row: 1;
+		height: 480px;
+		margin: 0 auto;
+	}
+	.ladder12 {
+	  grid-row:  1;	
+	  width: 280px;
+	  margin: 0 auto;
+	}
+	.val-prop-words {
+		grid-row: 2;
 	}
 }
 
