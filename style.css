@@ -53,6 +53,9 @@ p{
 	display:  flex;
 	margin: 0% 8%;
 }
+.navbar{
+	box-shadow: 0 10px 15px -10px rgba(107,0,124,.2);
+}
 .nav-logo{
 	height: 90px;
 	width: 202px;
